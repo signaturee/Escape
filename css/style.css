@@ -1,0 +1,564 @@
+/*fons start*/
+@font-face{
+	src: url(../font/escape_fonts/brandon_bld.ttf);
+	font-family:Brandon_bld;
+}
+@font-face{
+	src: url(../font/escape_fonts/brandon_med.ttf);
+	font-family:Brandon_med;
+}
+@font-face{
+	src: url(../font/escape_fonts/brandon_reg.ttf);
+	font-family:Brandon_reg;
+}
+@font-face{
+	src: url(../font/escape_fonts/brandon_light.ttf);
+	font-family:brandon_light;
+}
+@font-face{
+	src: url(../font/Cubano/Cubano.ttf);
+	font-family:Cubano;
+}
+/*fonts end*/
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding: 45px 0;
+}
+/*header start*/
+.banner {
+	background-image: url(../images/Banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	position: center;
+}
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+	/*border: 1px solid white;*/
+	overflow: hidden;
+}
+.wrapper_1{
+	width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+	/*border: 1px solid white;*/
+
+}
+
+.logo {
+	    width: 11%;
+    /* border: 1px solid white; */
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 13px;
+
+}
+.logo img{
+	width: 100%;
+	display: block;
+}
+.menu {
+	width: 60%;
+    float: right;
+    /*border:1px solid white;*/
+}
+.menu ul{
+	overflow: hidden;
+	float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+	
+}
+.menu ul li a{
+	font-family: Brandon_med;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 28px;
+    display: block;
+    transition: .6s;
+}
+.menu ul li a:hover {
+	color: #7690c5;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+/*banner text start*/
+.banner_text {
+	padding: 120px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner_text p{
+	font-family: brandon_light;
+    font-weight: 400;
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: -31px;
+}
+.banner_text h1{
+    font-family: Brandon_bld;
+    font-weight: 700;
+    font-size: 66px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 70px;
+}
+.bottom_text {
+}
+.bottom_text button{
+	font-family: Brandon_bld;
+    font-weight: 700;
+    font-size: 23px;
+    color: #ffffff;
+    background: none;
+    border: 2px solid white;
+    border-radius: 6px;
+    transition: .6s;
+    padding: 10px 66px;
+    cursor: pointer;
+
+}
+.bottom_text button:hover{
+	background: #7690c5;
+	color: white;
+}
+/*banner text end*/
+/*development start*/
+.development{
+	padding: 68px 0;
+}
+.text{
+	width: 60%;
+    float: left;
+}
+.text h1{
+	font-family: brandon_light;
+	font-weight: 300;
+	font-size: 60px;
+	color: #222222;
+	margin-top: 0;
+}
+.h1_text{
+	font-family: Brandon_bld;
+	font-weight: 700;
+	font-size: 60px;
+	color: #222222;
+}
+.text p{
+	font-family: Brandon_reg;
+	font-weight: 400;
+	font-size: 17px;
+	color: #777777;
+}
+.image{
+	float: right;
+    margin-top: 7.2%;
+}
+.image img{
+	width: 100%;
+}
+/*development end*/
+/*branding start*/
+.branding{
+	padding: 68px 0;
+    background-color: #fafafa;
+}
+.branding_icon{
+}
+.branding_icon img{
+	float: left;
+    margin-top: 68px;
+    margin-right: 110px;
+}
+/*branding start*/
+/*blog start*/
+.blog {
+	padding: 100px 0;
+}
+.single_blog{
+	
+	width: 47.3%;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 48px;
+}
+.single_blog:nth-child(even){
+	    margin-left: 5%;
+
+}
+.single {
+	width: 15%;
+    float: left;
+}
+.single img{
+	width: 100%;
+}
+.single_content {
+	width: 78%;
+    float: right;
+}
+.single_content h1{
+	font-family: Brandon_med;
+    font-weight: 400;
+    font-size: 22px;
+    color: #222222;
+    margin-top: 0;
+
+}
+.single_content p{
+	font-family: Brandon_reg;
+    font-weight: 400;
+    font-size: 18px;
+    color: #777777;
+}
+/*blog end*/
+/*clients start*/
+/*clients_single start*/
+.clients {
+	background-color: #fafafa;
+    padding: 100px 0;
+}
+.client_text {
+	text-align: center;
+    padding: 47px 0;
+}
+.client_text h1{
+	font-family: brandon_light;
+    font-weight: 400;
+    font-size: 60px;
+    color: #222222;
+    margin: 0;
+}
+.client_text h4{
+	font-family: brandon_light;
+    font-weight: 400;
+    font-size: 22px;
+    color: #777777;
+    margin: 0;
+}
+.client {
+	font-family: brandon_bld;
+}
+.single_1{
+
+}
+.icon_box{
+	position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    float: left;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.font_icon {
+	position: absolute;
+    font-size: 120px;
+    color: white;
+    margin-top: 29px;
+    margin-left: 45px;
+}
+.content {
+    background-color: white;
+    width: 53%;
+    padding: 30px 60px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.content q{
+	font-family: brandon_reg;
+    font-weight: 400;
+    font-size: 26px;
+    color: #777777;
+}
+.user_name {
+	font-family: brandon_reg;
+    font-weight: 400;
+    font-size: 20px;
+	color: #7690c5;
+}
+/*clients_single end*/
+.icon_box_1{
+	position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    float: right;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.font_icon_1{
+	position: absolute;
+    font-size: 120px;
+    color: white;
+    margin-top: 29px;
+    margin-left: 45px;
+}
+.content_1 {
+    background-color: white;
+    width: 53%;
+    padding: 30px 60px;
+    float: right;
+    margin-top: 20px;
+}
+.content_1 q{
+	font-family: brandon_reg;
+    font-weight: 400;
+    font-size: 26px;
+    color: #777777;
+}
+.user_name_1 {
+	font-family: brandon_reg;
+    font-weight: 400;
+    font-size: 20px;
+	color: #7690c5;
+}
+/*clients start*/
+/*logo_section start*/
+.logo_section{
+	padding: 50px 0;
+}
+.media_icon{
+	display: block;
+}
+.icon{
+	float: left;
+    padding: 0 16px;
+}
+.icon:first-child{
+	padding-left: 0;
+}
+.icon:last-child{
+	padding-right: 0;
+}
+/*logo_section end*/
+/*team section start*/
+.team {
+	background-color: #111111;
+}
+
+.client_text_1 {
+	text-align: center;
+}
+.client_text_1 h1{
+	font-family: brandon_light;
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffffff;
+    margin: 0;
+
+}
+.client_text_1 h4{
+	font-family: brandon_light;
+    font-weight: 400;
+    font-size: 22px;
+    color: #777777;
+    margin: 0;
+}
+.all_single{
+	padding: 90px 0;
+}
+.team_single {
+	width: 33.3%;
+    float: left;
+    padding: 50px 0;
+}
+.team_photo_box {
+	width: 235px;
+    height: 235px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-left: 34px;
+}
+.photo_content {
+	text-align: center;
+}
+.photo_content h4{
+	font-family:brandon_bld; 
+	font-weight: 700;
+	font-size: 18px;
+	color: #ffffff;
+	margin:10px 0;
+}
+.photo_content p{
+	font-family: brandon_reg;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: -4px;
+    margin-bottom: 12px;
+}
+.media_logo {
+}
+.media_logo a i{
+	font-size: 18px;
+    width: 33px;
+    height: 33px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+    transition: .7s;
+}
+.media_logo a i:before{
+	position: relative;
+	top: 9px;
+}
+.media_logo a i:hover{
+    color: #7690c5;
+}
+.bottom_content{
+}
+.bottom_content p{
+	font-family: brandon_reg;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ebebeb;
+	text-align: center;
+}
+/*team section end*/
+/*contact start*/
+.bottom {
+	background-color: #7690c5;
+}
+#all_bottom {
+        float: left;
+    padding: 100px 0;
+}
+.contact {
+        width: 45%;
+    float: left;
+}
+.contact h1{
+	font-family: brandon_light;
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffffff;
+    margin: 0;
+}
+.contact_text {
+	font-family: brandon_bld;
+}
+.contact p{
+	font-family: brandon_reg;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    /*width: 45%;*/
+}
+.info {
+	    width: 87%;
+    float: left;
+    list-style: none;
+    padding: 0px 0;
+    /* padding-left: 0; */
+    margin: 0;
+}
+.info ul{
+}
+.info li{
+	font-family: brandon_reg;
+	width: 50%;
+    float: left;
+    padding-top: 38px;
+    color: #ffffff;
+}
+.info li i{
+	font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    width: 50px;
+}
+.info li a{
+}
+.contact_form{
+    width: 48%;
+    float: right;
+    padding-top: 19px;
+}
+input{
+	font-family: 'brandon_grotesquemedium';
+    font-size: 18px;
+    color: #bbbbbb;
+    width: 435px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    outline: 0;
+    margin-bottom: 22px;
+    padding-left: 20px;
+    border: 1px solid #cccccc;
+    line-height: 24px;
+
+}
+textarea{
+	font-family: 'brandon_grotesquemedium';
+    font-size: 18px;
+    color: #bbbbbb;
+    width: 435px;
+    height: 190px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    outline: 0;
+    border: 0;
+    border: 1px solid #cccccc;
+    padding: 20px 0 0 20px;
+     line-height: 24px;
+
+}
+.buttom_text button{
+    font-family: Brandon_bld;
+    font-weight: 700;
+    font-size: 23px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: .6s;
+    padding: 10px 26px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 60%;
+}
+.buttom_text button:hover{
+    background: #4d4848;
+    color: white;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid white;
+    overflow: hidden;
+}
+.foter{
+        padding: 16px 0;
+    text-align: center;
+}
+.foter p{
+    font-family: Brandon_med;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+/*contact start*/

@@ -1,0 +1,111 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BrandonGrotesque-Bold
+FamilyName:Brandon Grotesque
+StyleName:Bold
+FullName:Brandon Grotesque Bold Regular
+MenuName:Brandon Grotesque Bold
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\FULL STACK WEB DEVELOPMENT\Project\PSD_to_HTML\Font\escape_fonts\brandon_bld.ttf
+DataFormat:sfntData
+FileLength:194776
+FileModTime:1450860920
+WeightClass:450
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Brandon Grotesque Bold
+NameArray:0,Win,16,Brandon Grotesque
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BrandonGrotesque-Light
+FamilyName:Brandon Grotesque
+StyleName:Light
+FullName:Brandon Grotesque Light Regular
+MenuName:Brandon Grotesque Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\FULL STACK WEB DEVELOPMENT\Project\PSD_to_HTML\Font\escape_fonts\brandon_light.ttf
+DataFormat:sfntData
+FileLength:155184
+FileModTime:1450860920
+WeightClass:330
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Brandon Grotesque Light
+NameArray:0,Win,16,Brandon Grotesque
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BrandonGrotesque-Medium
+FamilyName:Brandon Grotesque
+StyleName:Medium
+FullName:Brandon Grotesque Medium Regular
+MenuName:Brandon Grotesque Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\FULL STACK WEB DEVELOPMENT\Project\PSD_to_HTML\Font\escape_fonts\brandon_med.ttf
+DataFormat:sfntData
+FileLength:164984
+FileModTime:1450860920
+WeightClass:420
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Brandon Grotesque Medium
+NameArray:0,Win,16,Brandon Grotesque
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BrandonGrotesque-Regular
+FamilyName:Brandon Grotesque
+StyleName:Regular
+FullName:Brandon Grotesque Regular Regular
+MenuName:Brandon Grotesque Regular
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\FULL STACK WEB DEVELOPMENT\Project\PSD_to_HTML\Font\escape_fonts\brandon_reg.ttf
+DataFormat:sfntData
+FileLength:160356
+FileModTime:1450860920
+WeightClass:390
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Brandon Grotesque Regular
+NameArray:0,Win,16,Brandon Grotesque
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Cubano-Regular
+FamilyName:Cubano
+StyleName:Regular
+FullName:Cubano
+MenuName:Cubano
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\FULL STACK WEB DEVELOPMENT\Project\PSD_to_HTML\Font\Cubano\Cubano.ttf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:12712
+FileModTime:1456147950
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Cubano Regular
+NameArray:0,Mac,4,Cubano
+NameArray:0,Win,1,Cubano
+%EndFont
+
